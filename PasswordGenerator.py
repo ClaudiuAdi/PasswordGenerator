@@ -136,9 +136,9 @@ def password_maker():
             if len(codes) != 0:
                 print("YOUR PASSWORD(S): ")
                 for i in codes:
-                    print(" "+"-" * (len(i) + 5))
+                    print(' ' + '-' * (len(i) + 5))
                     print("|  {}  |".format(i))
-                    print(" "+"-" * (len(i) + 5))
+                    print(' '+'-' * (len(i) + 5))
             else:
                 print("Unfortunately, no passwords were good enough for you!")
 
